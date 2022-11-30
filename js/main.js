@@ -4,9 +4,11 @@ const app = createApp({
   data () {
     return {
       listaEmails: [],
-      listaProvvisoria: []
+      listaProvvisoria: [],
 
     };
+    counter: 0
+
   },
   methods: {
 
